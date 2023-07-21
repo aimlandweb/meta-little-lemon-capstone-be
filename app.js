@@ -5,7 +5,7 @@ import crypto from 'crypto'
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://meta-little-lemon-capstone-be.netlify.app' }));
 
 function generateUniqueId(length = 16) {
 	return new Promise((resolve, reject) => {
